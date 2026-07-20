@@ -1,3 +1,5 @@
+Deprecated: see https://github.com/neo4j-labs/meta-knowledge-graph
+
 # Agent Memory Hooks (Claude Code + Codex + Cursor)
 
 A two-stage memory system for [Claude Code](https://claude.com/claude-code),

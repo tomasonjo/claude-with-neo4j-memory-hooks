@@ -123,7 +123,7 @@ def _append_event(tx, session_id: str, client: str, event_props: dict):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--client", required=True, choices=["claude_code", "codex", "cursor"])
+    parser.add_argument("--client", required=True, choices=["claude_code", "codex", "cursor", "opencode"])
     args = parser.parse_args()
 
     try:

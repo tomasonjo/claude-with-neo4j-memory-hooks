@@ -112,7 +112,7 @@ def emit(event_name: str, context: str):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--client", required=True, choices=["claude_code", "codex", "cursor"])
+    parser.add_argument("--client", required=True, choices=["claude_code", "codex", "cursor", "opencode"])
     parser.parse_args()
 
     try:
